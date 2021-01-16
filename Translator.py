@@ -80,7 +80,7 @@ class translator:
         exp.write("This project was done as a part of Msc-Problem solving with python course.")
         exp.write("You can check out the work at [github](https://github.com/Aravind-krishnan-g/MSc-20-311-2102-Problem-Solving-With-Python-Translator)")
         
-        txt=st.text_area("Enter the text to be translator (No need to mention source language)")
+        txt=st.text_area("Enter the text to be translated (No need to mention source language)")
                 
         if(txt): # checking whether text data was entered
             option = st.selectbox("Select language you want to translate into",self.collection) # set langauge
