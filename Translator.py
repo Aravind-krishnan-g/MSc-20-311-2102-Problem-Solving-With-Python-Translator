@@ -78,7 +78,7 @@ class translator:
         exp= st.beta_expander("About") # 'About' section contains details about the project
         exp.write("This web application was developed using [translate](https://translate-python.readthedocs.io/en/latest/) and [streamlit](https://docs.streamlit.io/en/stable/index.html) web application framework.")
         exp.write("This project was done as a part of Msc-Problem solving with python course.")
-        exp.write("You can check out the work at [github]()")
+        exp.write("You can check out the work at [github](https://github.com/Aravind-krishnan-g/MSc-20-311-2102-Problem-Solving-With-Python-Translator)")
         
         txt=st.text_area("Enter the text to be translator (No need to mention source language)")
                 
